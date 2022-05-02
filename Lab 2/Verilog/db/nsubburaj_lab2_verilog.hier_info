@@ -1,0 +1,6 @@
+|nsubburaj_lab2_verilog
+a => Y.IN0
+b => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

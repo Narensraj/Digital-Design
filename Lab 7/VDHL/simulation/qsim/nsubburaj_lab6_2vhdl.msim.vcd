@@ -1,0 +1,166 @@
+$comment
+	File created using the following command:
+		vcd file nsubburaj_lab6_2vhdl.msim.vcd -direction
+$end
+$date
+	Wed Nov 10 10:36:16 2021
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module nsubburaj_lab6_2vhdl_vhd_vec_tst $end
+$var wire 1 ! C [6] $end
+$var wire 1 " C [5] $end
+$var wire 1 # C [4] $end
+$var wire 1 $ led [4] $end
+$var wire 1 % led [3] $end
+$var wire 1 & led [2] $end
+$var wire 1 ' led [1] $end
+$var wire 1 ( led [0] $end
+$var wire 1 ) sw [8] $end
+$var wire 1 * sw [7] $end
+$var wire 1 + sw [6] $end
+$var wire 1 , sw [5] $end
+$var wire 1 - sw [4] $end
+$var wire 1 . sw [3] $end
+$var wire 1 / sw [2] $end
+$var wire 1 0 sw [1] $end
+$var wire 1 1 sw [0] $end
+
+$scope module i1 $end
+$var wire 1 2 gnd $end
+$var wire 1 3 vcc $end
+$var wire 1 4 unknown $end
+$var wire 1 5 devoe $end
+$var wire 1 6 devclrn $end
+$var wire 1 7 devpor $end
+$var wire 1 8 ww_devoe $end
+$var wire 1 9 ww_devclrn $end
+$var wire 1 : ww_devpor $end
+$var wire 1 ; ww_sw [8] $end
+$var wire 1 < ww_sw [7] $end
+$var wire 1 = ww_sw [6] $end
+$var wire 1 > ww_sw [5] $end
+$var wire 1 ? ww_sw [4] $end
+$var wire 1 @ ww_sw [3] $end
+$var wire 1 A ww_sw [2] $end
+$var wire 1 B ww_sw [1] $end
+$var wire 1 C ww_sw [0] $end
+$var wire 1 D ww_led [4] $end
+$var wire 1 E ww_led [3] $end
+$var wire 1 F ww_led [2] $end
+$var wire 1 G ww_led [1] $end
+$var wire 1 H ww_led [0] $end
+$var wire 1 I ww_C [6] $end
+$var wire 1 J ww_C [5] $end
+$var wire 1 K ww_C [4] $end
+$var wire 1 L \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 M \sw[0]~input_o\ $end
+$var wire 1 N \sw[4]~input_o\ $end
+$var wire 1 O \sw[8]~input_o\ $end
+$var wire 1 P \Sum~0_combout\ $end
+$var wire 1 Q \sw[1]~input_o\ $end
+$var wire 1 R \sw[5]~input_o\ $end
+$var wire 1 S \Sum~1_combout\ $end
+$var wire 1 T \C~0_combout\ $end
+$var wire 1 U \sw[2]~input_o\ $end
+$var wire 1 V \sw[6]~input_o\ $end
+$var wire 1 W \Sum~2_combout\ $end
+$var wire 1 X \sw[7]~input_o\ $end
+$var wire 1 Y \sw[3]~input_o\ $end
+$var wire 1 Z \Sum~3_combout\ $end
+$var wire 1 [ \Cout~0_combout\ $end
+$var wire 1 \ \C~1_combout\ $end
+$var wire 1 ] \C~2_combout\ $end
+$var wire 1 ^ \ALT_INV_sw[7]~input_o\ $end
+$var wire 1 _ \ALT_INV_sw[3]~input_o\ $end
+$var wire 1 ` \ALT_INV_sw[6]~input_o\ $end
+$var wire 1 a \ALT_INV_sw[2]~input_o\ $end
+$var wire 1 b \ALT_INV_sw[5]~input_o\ $end
+$var wire 1 c \ALT_INV_sw[1]~input_o\ $end
+$var wire 1 d \ALT_INV_sw[8]~input_o\ $end
+$var wire 1 e \ALT_INV_sw[4]~input_o\ $end
+$var wire 1 f \ALT_INV_sw[0]~input_o\ $end
+$var wire 1 g \ALT_INV_C~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+02
+13
+x4
+15
+16
+17
+18
+19
+1:
+xL
+0M
+1N
+1O
+0P
+1Q
+0R
+0S
+1T
+0U
+1V
+0W
+0X
+0Y
+1Z
+0[
+1\
+1]
+1^
+1_
+0`
+1a
+1b
+0c
+0d
+0e
+1f
+0g
+1)
+0*
+1+
+0,
+1-
+0.
+0/
+10
+01
+1!
+1"
+1#
+1;
+0<
+1=
+0>
+1?
+0@
+0A
+1B
+0C
+0D
+1E
+0F
+0G
+0H
+1I
+1J
+1K
+0$
+1%
+0&
+0'
+0(
+$end
+#1000000

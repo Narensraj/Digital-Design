@@ -1,0 +1,9 @@
+
+State Machine - |nsubburaj_crosswalk_vhdl|state
+Name state.RedWait state.Red state.YellowWait state.Yellow state.GreenWait state.Green 
+state.Green 0 0 0 0 0 0 
+state.GreenWait 0 0 0 0 1 1 
+state.Yellow 0 0 0 1 0 1 
+state.YellowWait 0 0 1 0 0 1 
+state.Red 0 1 0 0 0 1 
+state.RedWait 1 0 0 0 0 1 

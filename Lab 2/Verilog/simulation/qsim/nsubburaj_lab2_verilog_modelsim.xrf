@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, Z:/Conestoga/Digital design/Labs/Lab 2/Verilog/nsubburaj_lab2_verilog.v
+source_file = 1, Z:/Conestoga/Digital design/Labs/Lab 2/Verilog/db/nsubburaj_lab2_verilog.cbx.xml
+design_name = nsubburaj_lab2_verilog
+instance = comp, \Y~output , Y~output, nsubburaj_lab2_verilog, 1
+instance = comp, \b~input , b~input, nsubburaj_lab2_verilog, 1
+instance = comp, \a~input , a~input, nsubburaj_lab2_verilog, 1
+instance = comp, \Y~0 , Y~0, nsubburaj_lab2_verilog, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, nsubburaj_lab2_verilog, 1

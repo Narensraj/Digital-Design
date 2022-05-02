@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LEDR",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG",
+					"strict" : false
+				},
+				{
+					"name" : "level5",
+					"strict" : false
+				},
+				{
+					"name" : "level6",
+					"strict" : false
+				},
+				{
+					"name" : "level7",
+					"strict" : false
+				},
+				{
+					"name" : "level1",
+					"strict" : false
+				},
+				{
+					"name" : "level2",
+					"strict" : false
+				},
+				{
+					"name" : "level3",
+					"strict" : false
+				},
+				{
+					"name" : "level4",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

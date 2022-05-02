@@ -1,0 +1,25 @@
+|nsubburaj_lab8_vhdl
+SW[0] => Mux3.IN1
+SW[1] => Mux3.IN0
+SW[2] => Mux2.IN0
+SW[3] => Mux1.IN0
+SW[4] => Mux0.IN1
+SW[5] => Mux0.IN0
+SW[6] => Mux0.IN5
+SW[6] => Mux1.IN5
+SW[6] => Mux2.IN5
+SW[6] => Mux3.IN5
+SW[7] => Mux0.IN4
+SW[7] => Mux1.IN4
+SW[7] => Mux2.IN4
+SW[7] => Mux3.IN4
+LEDR[0] <= R[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= R[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= R[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= R[3].DB_MAX_OUTPUT_PORT_TYPE
+CLK => R[0].CLK
+CLK => R[1].CLK
+CLK => R[2].CLK
+CLK => R[3].CLK
+
+

@@ -1,0 +1,32 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use IEEE.numeric_std.ALL;
+
+entity nsubburaj_lab5vhdl is
+port (
+		sw : in std_logic_vector(7 downto 0); 
+		led : out std_logic_vector(2 downto 0)
+);
+end nsubburaj_magnitudecomparator;
+
+architecture comparator of nsubburaj_lab5vhdl  is
+signal A : std_logic_vector(3 downto 0);
+signal B : std_logic_vector(3 downto 0);
+signal GT : std_logic;
+signal EQ : std_logic;
+signal LT : std_logic;
+begin
+process (A,B)
+	begin
+         if (A < B) then
+				led => 3'b001;
+			elsif (A > B) then
+				led => 3'b100;
+			elsif (A == B) then
+				led => 3'b010;
+			else
+				led => 3'b000;
+		  end if;
+	end process;
+end comparator;

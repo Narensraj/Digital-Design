@@ -1,0 +1,27 @@
+|nsubburaj_shiftregister_verilog
+sw[0] => Equal0.IN1
+sw[0] => Equal1.IN0
+sw[0] => Equal2.IN1
+sw[1] => Equal0.IN0
+sw[1] => Equal1.IN1
+sw[1] => Equal2.IN0
+sw[2] => R.DATAB
+sw[3] => R.DATAB
+sw[4] => R.DATAA
+sw[4] => R.DATAB
+sw[5] => R.DATAA
+sw[5] => R.DATAB
+sw[6] => R.DATAA
+sw[6] => R.DATAB
+sw[7] => R.DATAA
+sw[7] => R.DATAB
+CLK => R[0].CLK
+CLK => R[1].CLK
+CLK => R[2].CLK
+CLK => R[3].CLK
+ledr[0] <= R[0].DB_MAX_OUTPUT_PORT_TYPE
+ledr[1] <= R[1].DB_MAX_OUTPUT_PORT_TYPE
+ledr[2] <= R[2].DB_MAX_OUTPUT_PORT_TYPE
+ledr[3] <= R[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,12 @@
+|nsubburaj_lab3_verilog
+LEDR << LEDR.DB_MAX_OUTPUT_PORT_TYPE
+LEDG << LEDR.DB_MAX_OUTPUT_PORT_TYPE
+level1 => LEDR.IN0
+level2 => LEDR.IN1
+level3 => LEDR.IN1
+level4 => LEDR.IN1
+level5 => LEDR.IN1
+level6 => LEDR.IN1
+level7 => LEDR.IN1
+
+

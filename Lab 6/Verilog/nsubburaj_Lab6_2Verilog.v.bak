@@ -1,0 +1,3 @@
+module nsubburaj_Lab6_2Verilog(sw,led);
+input [7:0] sw;
+output [7:0] led;

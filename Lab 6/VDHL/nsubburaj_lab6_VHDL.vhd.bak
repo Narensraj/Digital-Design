@@ -1,0 +1,12 @@
+Library ieee; 
+use ieee.std_logic_1164.all;
+  
+entity nsubburaj_lab6_VHDL is
+   port(a,b:in bit; sum,carry:out bit); 
+end nsubburaj_lab6_VHDL; 
+ 
+architecture halfadder of nsubburaj_lab6_VHDL is
+begin
+   sum<= a xor b;  
+   carry <= a and b;  
+end halfadder; 

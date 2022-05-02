@@ -1,0 +1,32 @@
+|nsubburaj_concurrentconstructs_verilog
+X[0] => Equal0.IN2
+X[0] => Equal1.IN0
+X[0] => Equal2.IN2
+X[0] => Equal3.IN1
+X[0] => Equal4.IN2
+X[0] => Equal5.IN1
+X[0] => Equal6.IN2
+X[1] => Equal0.IN1
+X[1] => Equal1.IN2
+X[1] => Equal2.IN0
+X[1] => Equal3.IN0
+X[1] => Equal4.IN1
+X[1] => Equal5.IN2
+X[1] => Equal6.IN1
+X[2] => Equal0.IN0
+X[2] => Equal1.IN1
+X[2] => Equal2.IN1
+X[2] => Equal3.IN2
+X[2] => Equal4.IN0
+X[2] => Equal5.IN0
+X[2] => Equal6.IN0
+Y[0] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[7] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity nsubburaj_lab6_2vhdl is
+port (
+sw : in std_logic_vector(7 downto 0); 
+led : out std_logic_vector(4 downto 0));
+
+architecture fulladder of nsubburaj_lab6_2vhdl is
+signal A : std_logic_vector(3 downto 0); 
+signal B : std_logic_vector(7 downto 4); 
+signal Sum: std_logic_vector(3 downto 0); 
+signal C : std_logic_vector(7 downto 4);
+begin
+A <= sw(3 downto 0); 
+B <= sw(7 downto 4);
+
+led (3 downto 0) <= Sum(3 downto 0);
+led (7 downto 4) <= C(7 downto 4);
+
+Sum(0) <= A(0) XOR B(4);
+C(4) <= A(0) AND B(4);
+
+Sum(0) <= A(0) XOR B(4) XOR C(4) ;
+C(4) <= (A(0) AND B(4)) OR (C(4) AND A(0)) OR (C(4) AND B(4)) ;
+
+end fulladder

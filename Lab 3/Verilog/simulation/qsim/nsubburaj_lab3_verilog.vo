@@ -1,0 +1,267 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition"
+
+// DATE "09/30/2021 11:04:27"
+
+// 
+// Device: Altera 5CSEMA5F31C6 Package FBGA896
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module nsubburaj_lab3_verilog (
+	LEDR,
+	LEDG,
+	level1,
+	level2,
+	level3,
+	level4,
+	level5,
+	level6,
+	level7);
+output 	LEDR;
+output 	LEDG;
+input 	level1;
+input 	level2;
+input 	level3;
+input 	level4;
+input 	level5;
+input 	level6;
+input 	level7;
+
+// Design Ports Information
+// LEDR	=>  Location: PIN_AE29,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// LEDG	=>  Location: PIN_AA26,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// level5	=>  Location: PIN_Y26,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// level6	=>  Location: PIN_AA28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// level7	=>  Location: PIN_AD30,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// level1	=>  Location: PIN_Y27,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// level2	=>  Location: PIN_AD29,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// level3	=>  Location: PIN_AB27,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// level4	=>  Location: PIN_AC30,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \~QUARTUS_CREATED_GND~I_combout ;
+wire \level6~input_o ;
+wire \level2~input_o ;
+wire \level4~input_o ;
+wire \level1~input_o ;
+wire \level3~input_o ;
+wire \LEDR~0_combout ;
+wire \level5~input_o ;
+wire \level7~input_o ;
+wire \LEDR~1_combout ;
+
+
+// Location: IOOBUF_X89_Y23_N39
+cyclonev_io_obuf \LEDR~output (
+	.i(\LEDR~1_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(LEDR),
+	.obar());
+// synopsys translate_off
+defparam \LEDR~output .bus_hold = "false";
+defparam \LEDR~output .open_drain_output = "false";
+defparam \LEDR~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X89_Y23_N5
+cyclonev_io_obuf \LEDG~output (
+	.i(!\LEDR~1_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(LEDG),
+	.obar());
+// synopsys translate_off
+defparam \LEDG~output .bus_hold = "false";
+defparam \LEDG~output .open_drain_output = "false";
+defparam \LEDG~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y21_N55
+cyclonev_io_ibuf \level6~input (
+	.i(level6),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\level6~input_o ));
+// synopsys translate_off
+defparam \level6~input .bus_hold = "false";
+defparam \level6~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y23_N55
+cyclonev_io_ibuf \level2~input (
+	.i(level2),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\level2~input_o ));
+// synopsys translate_off
+defparam \level2~input .bus_hold = "false";
+defparam \level2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y25_N55
+cyclonev_io_ibuf \level4~input (
+	.i(level4),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\level4~input_o ));
+// synopsys translate_off
+defparam \level4~input .bus_hold = "false";
+defparam \level4~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y25_N21
+cyclonev_io_ibuf \level1~input (
+	.i(level1),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\level1~input_o ));
+// synopsys translate_off
+defparam \level1~input .bus_hold = "false";
+defparam \level1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y23_N21
+cyclonev_io_ibuf \level3~input (
+	.i(level3),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\level3~input_o ));
+// synopsys translate_off
+defparam \level3~input .bus_hold = "false";
+defparam \level3~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LABCELL_X88_Y25_N30
+cyclonev_lcell_comb \LEDR~0 (
+// Equation(s):
+// \LEDR~0_combout  = ( \level3~input_o  & ( (\level2~input_o  & (\level4~input_o  & \level1~input_o )) ) )
+
+	.dataa(gnd),
+	.datab(!\level2~input_o ),
+	.datac(!\level4~input_o ),
+	.datad(!\level1~input_o ),
+	.datae(gnd),
+	.dataf(!\level3~input_o ),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\LEDR~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \LEDR~0 .extended_lut = "off";
+defparam \LEDR~0 .lut_mask = 64'h0000000000030003;
+defparam \LEDR~0 .shared_arith = "off";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y25_N4
+cyclonev_io_ibuf \level5~input (
+	.i(level5),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\level5~input_o ));
+// synopsys translate_off
+defparam \level5~input .bus_hold = "false";
+defparam \level5~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y25_N38
+cyclonev_io_ibuf \level7~input (
+	.i(level7),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\level7~input_o ));
+// synopsys translate_off
+defparam \level7~input .bus_hold = "false";
+defparam \level7~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LABCELL_X88_Y25_N33
+cyclonev_lcell_comb \LEDR~1 (
+// Equation(s):
+// \LEDR~1_combout  = ( \level7~input_o  & ( (\level6~input_o  & (\LEDR~0_combout  & \level5~input_o )) ) )
+
+	.dataa(!\level6~input_o ),
+	.datab(gnd),
+	.datac(!\LEDR~0_combout ),
+	.datad(!\level5~input_o ),
+	.datae(gnd),
+	.dataf(!\level7~input_o ),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\LEDR~1_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \LEDR~1 .extended_lut = "off";
+defparam \LEDR~1 .lut_mask = 64'h0000000000050005;
+defparam \LEDR~1 .shared_arith = "off";
+// synopsys translate_on
+
+// Location: LABCELL_X1_Y2_N0
+cyclonev_lcell_comb \~QUARTUS_CREATED_GND~I (
+// Equation(s):
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\~QUARTUS_CREATED_GND~I_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \~QUARTUS_CREATED_GND~I .extended_lut = "off";
+defparam \~QUARTUS_CREATED_GND~I .lut_mask = 64'h0000000000000000;
+defparam \~QUARTUS_CREATED_GND~I .shared_arith = "off";
+// synopsys translate_on
+
+endmodule

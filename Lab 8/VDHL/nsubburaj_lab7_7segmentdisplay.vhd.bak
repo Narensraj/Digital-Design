@@ -1,0 +1,7 @@
+libray IEEE;
+use IEEE.std_logic_1164.ALL;
+
+entity nsubburaj_lab7_7segmentdisplay is
+port( INP : in std_logic_vector(3 downto 0);
+		HEX : out std_logic_vector(0 to 6));
+end nsubburaj_lab7_7segmentdisplay;

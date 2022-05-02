@@ -1,0 +1,767 @@
+$comment
+	File created using the following command:
+		vcd file nsubburaj_crosswalk_vhdl.msim.vcd -direction
+$end
+$date
+	Thu Dec 09 11:37:05 2021
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module nsubburaj_crosswalk_vhdl_vhd_vec_tst $end
+$var wire 1 ! BUTTON $end
+$var wire 1 " clk $end
+$var wire 1 # SGREEN $end
+$var wire 1 $ SRED $end
+$var wire 1 % SYELLOW $end
+$var wire 1 & WGREEN $end
+$var wire 1 ' WRED $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var wire 1 + devoe $end
+$var wire 1 , devclrn $end
+$var wire 1 - devpor $end
+$var wire 1 . ww_devoe $end
+$var wire 1 / ww_devclrn $end
+$var wire 1 0 ww_devpor $end
+$var wire 1 1 ww_clk $end
+$var wire 1 2 ww_BUTTON $end
+$var wire 1 3 ww_SGREEN $end
+$var wire 1 4 ww_SYELLOW $end
+$var wire 1 5 ww_SRED $end
+$var wire 1 6 ww_WRED $end
+$var wire 1 7 ww_WGREEN $end
+$var wire 1 8 \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 9 \clk~input_o\ $end
+$var wire 1 : \clk~inputCLKENA0_outclk\ $end
+$var wire 1 ; \state.Green~q\ $end
+$var wire 1 < \Selector3~0_combout\ $end
+$var wire 1 = \state.GreenWait~q\ $end
+$var wire 1 > \state.RedWait~q\ $end
+$var wire 1 ? \state.YellowWait~q\ $end
+$var wire 1 @ \state.GreenWait~DUPLICATE_q\ $end
+$var wire 1 A \Selector2~1_combout\ $end
+$var wire 1 B \state.Yellow~q\ $end
+$var wire 1 C \Selector5~0_combout\ $end
+$var wire 1 D \state.YellowWait~DUPLICATE_q\ $end
+$var wire 1 E \WideOr1~combout\ $end
+$var wire 1 F \Selector2~2_combout\ $end
+$var wire 1 G \state.Red~q\ $end
+$var wire 1 H \Selector7~0_combout\ $end
+$var wire 1 I \state.RedWait~DUPLICATE_q\ $end
+$var wire 1 J \Selector11~0_combout\ $end
+$var wire 1 K \Selector12~0_combout\ $end
+$var wire 1 L \Selector13~0_combout\ $end
+$var wire 1 M \count[1]~DUPLICATE_q\ $end
+$var wire 1 N \Selector14~0_combout\ $end
+$var wire 1 O \count[0]~DUPLICATE_q\ $end
+$var wire 1 P \Selector2~0_combout\ $end
+$var wire 1 Q \state.Green~DUPLICATE_q\ $end
+$var wire 1 R \Selector8~0_combout\ $end
+$var wire 1 S \SGREEN~reg0_q\ $end
+$var wire 1 T \Selector9~0_combout\ $end
+$var wire 1 U \SYELLOW~reg0_q\ $end
+$var wire 1 V \Selector10~0_combout\ $end
+$var wire 1 W \SRED~reg0_q\ $end
+$var wire 1 X \BUTTON~input_o\ $end
+$var wire 1 Y \Selector0~0_combout\ $end
+$var wire 1 Z \WRED~0_combout\ $end
+$var wire 1 [ \WRED~1_combout\ $end
+$var wire 1 \ \WRED~reg0_q\ $end
+$var wire 1 ] \WGREEN~0_combout\ $end
+$var wire 1 ^ \WGREEN~reg0_q\ $end
+$var wire 1 _ count [3] $end
+$var wire 1 ` count [2] $end
+$var wire 1 a count [1] $end
+$var wire 1 b count [0] $end
+$var wire 1 c ALT_INV_count [3] $end
+$var wire 1 d ALT_INV_count [2] $end
+$var wire 1 e ALT_INV_count [1] $end
+$var wire 1 f ALT_INV_count [0] $end
+$var wire 1 g \ALT_INV_SYELLOW~reg0_q\ $end
+$var wire 1 h \ALT_INV_SGREEN~reg0_q\ $end
+$var wire 1 i \ALT_INV_SRED~reg0_q\ $end
+$var wire 1 j \ALT_INV_WRED~reg0_q\ $end
+$var wire 1 k \ALT_INV_WGREEN~reg0_q\ $end
+$var wire 1 l \ALT_INV_state.YellowWait~q\ $end
+$var wire 1 m \ALT_INV_state.GreenWait~q\ $end
+$var wire 1 n \ALT_INV_state.RedWait~q\ $end
+$var wire 1 o \ALT_INV_state.Green~q\ $end
+$var wire 1 p \ALT_INV_state.Yellow~q\ $end
+$var wire 1 q \ALT_INV_state.Red~q\ $end
+$var wire 1 r \ALT_INV_Selector0~0_combout\ $end
+$var wire 1 s \ALT_INV_count[0]~DUPLICATE_q\ $end
+$var wire 1 t \ALT_INV_count[1]~DUPLICATE_q\ $end
+$var wire 1 u \ALT_INV_state.Green~DUPLICATE_q\ $end
+$var wire 1 v \ALT_INV_state.RedWait~DUPLICATE_q\ $end
+$var wire 1 w \ALT_INV_state.GreenWait~DUPLICATE_q\ $end
+$var wire 1 x \ALT_INV_state.YellowWait~DUPLICATE_q\ $end
+$var wire 1 y \ALT_INV_BUTTON~input_o\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+1)
+x*
+1+
+1,
+1-
+1.
+1/
+10
+01
+12
+03
+04
+05
+06
+07
+x8
+09
+0:
+0;
+1<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+1N
+0O
+1P
+0Q
+1R
+0S
+0T
+0U
+0V
+0W
+1X
+0Y
+1Z
+1[
+0\
+0]
+0^
+1g
+1h
+1i
+1j
+1k
+1l
+1m
+1n
+1o
+1p
+1q
+1r
+1s
+1t
+1u
+1v
+1w
+1x
+0y
+0_
+0`
+0a
+0b
+1c
+1d
+1e
+1f
+$end
+#20000
+1"
+11
+19
+1:
+1;
+1=
+1@
+1Q
+1S
+1\
+0j
+0h
+0u
+0w
+0m
+0o
+1E
+0Z
+1Y
+0r
+16
+13
+1Z
+1'
+1#
+#40000
+0"
+01
+09
+0:
+#60000
+1"
+11
+19
+1:
+1b
+1O
+0s
+0f
+0N
+0<
+1A
+#80000
+0"
+01
+09
+0:
+#100000
+1"
+11
+19
+1:
+0=
+0@
+1B
+0b
+0O
+1s
+1f
+0p
+1w
+1m
+0R
+0Y
+0E
+1T
+1N
+0A
+1C
+1r
+#120000
+0"
+01
+09
+0:
+#140000
+1"
+11
+19
+1:
+1?
+0B
+1D
+0S
+1U
+0g
+1h
+0x
+1p
+0l
+1Y
+1E
+0Z
+0r
+14
+03
+1Z
+1%
+0#
+#160000
+0"
+01
+09
+0:
+#180000
+1"
+11
+19
+1:
+1b
+1O
+0s
+0f
+0N
+1L
+#200000
+0"
+01
+09
+0:
+#220000
+1"
+11
+19
+1:
+1a
+0b
+1M
+0O
+1s
+0t
+1f
+0e
+1N
+#240000
+0"
+01
+09
+0:
+#260000
+1"
+11
+19
+1:
+1b
+1O
+0s
+0f
+0N
+0C
+1F
+0L
+#280000
+0"
+01
+09
+0:
+#300000
+1"
+11
+19
+1:
+0?
+0D
+0a
+1G
+0b
+0M
+0O
+1s
+1t
+1f
+0q
+1e
+1x
+1l
+0Y
+0T
+0E
+1V
+1]
+1N
+0F
+1H
+1r
+0Z
+#320000
+0"
+01
+09
+0:
+#340000
+1"
+11
+19
+1:
+1>
+0G
+1I
+0U
+1W
+0\
+1^
+0k
+1j
+0i
+1g
+0v
+1q
+0n
+1E
+17
+06
+15
+04
+1&
+0'
+1$
+0%
+#360000
+0"
+01
+09
+0:
+#380000
+1"
+11
+19
+1:
+1b
+1O
+0s
+0f
+0N
+1L
+#400000
+0"
+01
+09
+0:
+#420000
+1"
+11
+19
+1:
+1a
+0b
+1M
+0O
+1s
+0t
+1f
+0e
+1N
+#440000
+0"
+01
+09
+0:
+#460000
+1"
+11
+19
+1:
+1b
+1O
+0s
+0f
+1K
+0N
+0L
+#480000
+0"
+01
+09
+0:
+#500000
+1"
+11
+19
+1:
+0a
+0b
+1`
+0M
+0O
+1s
+1t
+0d
+1f
+1e
+1N
+#520000
+0"
+01
+09
+0:
+#540000
+1"
+11
+19
+1:
+1b
+1O
+0s
+0f
+0N
+1L
+#560000
+0"
+01
+09
+0:
+#580000
+1"
+11
+19
+1:
+1a
+0b
+1M
+0O
+1s
+0t
+1f
+0e
+1N
+#600000
+0"
+01
+09
+0:
+#620000
+1"
+11
+19
+1:
+1b
+1O
+0s
+0f
+0K
+0N
+1J
+0L
+#640000
+0"
+01
+09
+0:
+#660000
+1"
+11
+19
+1:
+0a
+1_
+0b
+0`
+0M
+0O
+1s
+1t
+1d
+1f
+0c
+1e
+0H
+0J
+0P
+#680000
+0"
+01
+09
+0:
+#700000
+1"
+11
+19
+1:
+0;
+0>
+0I
+0_
+0Q
+1u
+1c
+1v
+1n
+1o
+0E
+1Z
+0]
+0V
+1<
+1N
+1P
+1R
+#720000
+0"
+01
+09
+0:
+#740000
+1"
+11
+19
+1:
+1;
+1=
+1@
+1Q
+1S
+0W
+1\
+0^
+1k
+0j
+1i
+0h
+0u
+0w
+0m
+0o
+1E
+0Z
+1Y
+0r
+07
+16
+05
+13
+1Z
+0&
+1'
+0$
+1#
+#760000
+0"
+01
+09
+0:
+#780000
+1"
+11
+19
+1:
+1b
+1O
+0s
+0f
+0N
+0<
+1A
+#800000
+0"
+01
+09
+0:
+#820000
+1"
+11
+19
+1:
+0=
+0@
+1B
+0b
+0O
+1s
+1f
+0p
+1w
+1m
+0R
+0Y
+0E
+1T
+1N
+0A
+1C
+1r
+#840000
+0"
+01
+09
+0:
+#860000
+1"
+11
+19
+1:
+1?
+0B
+1D
+0S
+1U
+0g
+1h
+0x
+1p
+0l
+1Y
+1E
+0Z
+0r
+14
+03
+1Z
+1%
+0#
+#880000
+0"
+01
+09
+0:
+#900000
+1"
+11
+19
+1:
+1b
+1O
+0s
+0f
+0N
+1L
+#920000
+0"
+01
+09
+0:
+#940000
+1"
+11
+19
+1:
+1a
+0b
+1M
+0O
+1s
+0t
+1f
+0e
+1N
+#960000
+0"
+01
+09
+0:
+#980000
+1"
+11
+19
+1:
+1b
+1O
+0s
+0f
+0N
+0C
+1F
+0L
+#1000000
